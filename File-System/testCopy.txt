@@ -1,0 +1,3 @@
+Python for the win 
+Javascript for the king
+C++ for everything else

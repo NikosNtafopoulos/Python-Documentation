@@ -17,7 +17,7 @@ with open('test.txt', 'r') as rf:
         for line in rf:
             wf.write(line)
 
-# copy an image
+# copy an image inside our project folder
 with open('poster_one.jpg', 'rb') as rf:
     with open('../File-System/posterone_copy.jpg', 'wb') as wf:
         for line in rf:
