@@ -8,7 +8,7 @@
 
 ### they are exactly like lists except they start with `(` instead of `[` and their values cannot be changed which means that we can not append or remove elements
 
-# What is a set
+# What is a set?
 
 ### A data structure collection which is unordered and immutable.Also a set value is unique which means that does not have dublicate members
 
@@ -22,7 +22,7 @@
 
 ### exampleElement[-1] --> will grab the LAST item in our list
 
-# If we have a list with 5 elements how can i access the first 3 elements
+# If we have a list with 5 elements how can i access the first 3 elements?
 
 ```
  exampleElements = ['test','test2','test2','test3','test4']
@@ -37,7 +37,7 @@
  exampleElements[3:]
 ```
 
-# How to add an item in my list
+# How to add an item in my list?
 
 ## with append
 
@@ -67,7 +67,7 @@ for history in UniCourses:
     print history
 ```
 
-# And how about if we want to print the index
+# And how about if we want to print the index?
 
 ```
  for index, course in enumerate(UniCourses):
