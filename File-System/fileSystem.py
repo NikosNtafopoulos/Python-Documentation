@@ -1,12 +1,11 @@
 # read and write
-
 f = open('test.txt', 'r')
 print f.name
 print f.mode
 f.close()
 
 # or with context manager
-# printing on our terminal exactly what the file hav
+# printing on our terminal exactly what the file contains
 with open('test.txt', 'r') as f:
     f_contents = f.read()
     print f_contents
