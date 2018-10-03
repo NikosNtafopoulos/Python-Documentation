@@ -1,10 +1,10 @@
 # What is a list?
 
-### A data structure collection which is ordered and mutable
+### A data structure sequence which is ordered and mutable
 
 # What is a tuple?
 
-### A data structure collection which is ordered and immutable
+### A data structure sequence which is ordered and immutable
 
 ### they are exactly like lists except they start with `(` instead of `[` and their values cannot be changed which means that we can not append or remove elements
 
@@ -73,3 +73,7 @@ for history in UniCourses:
  for index, course in enumerate(UniCourses):
      print(index, UniCourses)
 ```
+
+---
+
+###### Check the `examples`.py for further sequence,collection examples
